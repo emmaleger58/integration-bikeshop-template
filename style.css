@@ -1,0 +1,39 @@
+@font-face {
+  font-family: corsivo;
+  src: url("./fonts/corsivo.ttf");
+}
+@font-face {
+  font-family: modern;
+  src: url("./fonts/modern.ttf");
+}
+@font-face {
+  font-family: lego;
+  src: url("./fonts/lego.otf");
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.sec1{
+  padding: 3%;
+  background-image: url("./img/fondo1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.sec2{
+  height: 100vh;
+  padding: 8% 10%;
+  display: inline-flex;
+}
+.sec3{
+  display: inline-flex;
+}
+.sec4{
+  padding-top: 3%;
+  text-align: center;
+}
