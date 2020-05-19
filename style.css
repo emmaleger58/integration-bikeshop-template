@@ -10,24 +10,24 @@
   font-family: lego;
   src: url("./fonts/lego.otf");
 }
-.sec1{
+#sec1{
   padding: 3% 3% 20% 3%;
   background-image: url("./img/fondo1.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
 }
-.sec2{
+#sec2{
   height: 100%;
   padding: 8% 10%;
 }
-.sec4{
+#sec4{
   padding-top: 3%;
 }
-.sec5{
+#sec5{
   padding: 8% 10%;
 }
-.sec6{
+#sec6{
   height: 100%;
   background-image: url("./img/fondo1.jpg");
   background-position: center;
@@ -38,11 +38,11 @@
     display: none;
   }
 }
-@media only screen and (max-width: 1300px){
-  .sec2{
+@media only screen and (max-width: 1200px){
+  #sec2 *{
     display: none;
   }
-  .sec3{
+  #sec3 *{
     display: none;
   }
   #carddeck{
@@ -53,7 +53,7 @@
     height: auto;
     margin: auto
   }
-  .sec4{
+  #sec4{
     display: none;
   }
   #formfoot{
