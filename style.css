@@ -41,3 +41,12 @@ body{
   padding: 8% 10%;
   text-align: center;
 }
+.sec6{
+  height: 100vh;
+  background-image: url("./img/fondo1.jpg");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: table-cell;
+  vertical-align: middle
+}
