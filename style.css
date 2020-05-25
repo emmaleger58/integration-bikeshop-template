@@ -10,29 +10,235 @@
   font-family: lego;
   src: url("./fonts/lego.otf");
 }
+
+@body{
+  margin: 0;
+  padding: 0;
+}
+
 #sec1{
   padding: 3% 3% 20% 3%;
   background-image: url("./img/fondo1.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
+  text-align: center;
 }
+
+#brand{
+  font-family:corsivo;
+  font-size:30px;
+  margin-right:30%
+}
+
+.navlink{
+  font-size:15px;
+}
+
+#basket{
+  font-size:15px;
+  background:none;
+}
+
+#paragrafo1{
+  font-size:60px;
+  font-family: modern;
+  padding-top:10%;
+  padding-bottom:2%;
+  line-height:120%;
+  color: white;
+}
+
+#lorem{
+  font-family:lego;
+  font-size:30px;
+  color:#999999;
+  letter-spacing:2px;
+  padding-bottom:2%;
+}
+
+#play{
+  border-radius:100%;
+  height:7vh;
+  width:7vh;
+  outline: none;
+}
+
+#music{
+  height:3vh;
+  width:3vh;
+}
+
 #sec2{
   height: 100%;
   padding: 8% 10%;
 }
+
+#sec2center{
+  width:50%;
+}
+
+#sec2title{
+  font-size:60px;
+  font-family: modern;
+  line-height:90%;
+}
+
+.paragraphe{
+  color:#999999;
+  font-family:lego;
+  font-size:20px;
+}
+
+.bottoncontainer{
+  padding:3.5px;
+  background-color:#404040;
+  width:6.8em;
+}
+
+.classicbutton{
+  background-color: #404040;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  outline: none;
+}
+
+#img2{
+  width:55vh;
+  height: auto;
+  margin-left:5%;
+}
+
+#sec3{
+  width:100%;
+}
+
+.paragrafo{
+  margin-top:10vh;
+  padding-right:15%;
+}
+
 #sec4{
   padding-top: 3%;
 }
+
+.header{
+  padding:5%;
+}
+
+.h1{
+font-size:60px;
+font-family: modern;
+line-height:90%;
+}
+
+.bottoncontainer2{
+  padding:3.5px;
+  background-color:#404040;
+  width:3.5em;
+}
+
+#zoom{
+  background-color:#404040;
+  color:#f2f2f2;
+  border:1px solid #f2f2f2;
+  outline: none;
+  padding: 5px;
+}
+
+.imgbutton{
+  margin-bottom:1rem;
+}
+
+.fotobici{
+  margin:auto
+}
+
+.comboimg{
+  width:9vw;
+  margin-bottom:5%;
+}
+
+.each{
+  width:9vw;
+  margin-bottom:5%;
+}
+
 #sec5{
   padding: 8% 10%;
 }
+
+.paragraphebis{
+  color:#999999;
+  font-family:lego;
+  font-size:20px;
+  margin-top:4%;
+}
+
+.bottoncontainer3{
+  padding:3.5px;
+  background-color:#404040;
+  width:5.9em;
+  margin:auto;
+}
+
 #sec6{
   height: 100%;
   background-image: url("./img/fondo1.jpg");
   background-position: center;
   background-size: cover;
 }
+
+.middleinfo{
+  padding:5%;
+  margin:5%;
+}
+
+#jsp{
+  margin-top:7vh;
+}
+
+#email{
+  padding:2%;
+  width:150%;
+  background-color: #cccccc;
+  border:none;
+}
+
+.bottoncontainer4{
+  padding:3.5px;
+  background-color:#404040;
+  width:25em;
+  height:6.3vh;
+}
+
+#suscribe{
+  background-color:#404040;
+  color:#f2f2f2;
+  border:1px solid#f2f2f2;
+  outline:none;
+  width:100%;
+  height:100%;
+}
+
+#secondsub{
+  margin-top: 7vh;
+}
+
+.bottoncontainer5{
+  padding:3.5px;
+  background-color: #404040;
+  width:10em;
+  height:6.3vh;
+}
+
+#lastnav{
+  padding-left:3%;
+  padding-right:3%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
 @media only screen and (min-width: 1300px){
   #secondsub{
     display: none;
