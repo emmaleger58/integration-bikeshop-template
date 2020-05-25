@@ -38,6 +38,8 @@
 #basket{
   font-size:15px;
   background:none;
+  border: 0;
+  color: white;
 }
 
 #paragrafo1{
@@ -62,6 +64,8 @@
   height:7vh;
   width:7vh;
   outline: none;
+  text-align: center;
+  border: 0;
 }
 
 #music{
@@ -72,28 +76,36 @@
 #sec2{
   height: 100%;
   padding: 8% 10%;
+  display: inline-flex;
 }
 
 #sec2center{
-  width:50%;
+  width:40%;
+  border: 0;
+  margin: auto;
 }
 
 #sec2title{
   font-size:60px;
   font-family: modern;
   line-height:90%;
+  margin-bottom: 5vh;
 }
 
 .paragraphe{
-  color:#999999;
-  font-family:lego;
-  font-size:20px;
+  color: #999999;
+  font-family: lego;
+  font-size: 20px;
 }
 
 .bottoncontainer{
-  padding:3.5px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
   background-color:#404040;
-  width:6.8em;
+  width:15vh;
+  margin-top: 5vh;
 }
 
 .classicbutton{
@@ -101,16 +113,20 @@
   color: #f2f2f2;
   border: 1px solid #f2f2f2;
   outline: none;
+  width:100%;
+  height:100%;
 }
 
 #img2{
-  width:55vh;
+  width:45%;
   height: auto;
   margin-left:5%;
 }
 
 #sec3{
   width:100%;
+  display: inline-flex;
+  margin: auto;
 }
 
 .paragrafo{
@@ -120,6 +136,7 @@
 
 #sec4{
   padding-top: 3%;
+  text-align: center;
 }
 
 .header{
@@ -127,9 +144,15 @@
 }
 
 .h1{
-font-size:60px;
+font-size:10vh;
 font-family: modern;
 line-height:90%;
+}
+
+#sec4b{
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
 }
 
 .bottoncontainer2{
@@ -151,7 +174,8 @@ line-height:90%;
 }
 
 .fotobici{
-  margin:auto
+  margin:auto;
+  text-align: center;
 }
 
 .comboimg{
@@ -166,6 +190,7 @@ line-height:90%;
 
 #sec5{
   padding: 8% 10%;
+  text-align:center;
 }
 
 .paragraphebis{
@@ -175,34 +200,48 @@ line-height:90%;
   margin-top:4%;
 }
 
+.card{
+  width: 320px;
+  margin: 16px;
+  padding: 8px;
+
+}
+
+.card-deck{
+  display: flex;
+  flex-direction: row;
+}
+
 .bottoncontainer3{
   padding:3.5px;
   background-color:#404040;
-  width:5.9em;
+  width:17vh;
   margin:auto;
 }
 
 #sec6{
-  height: 100%;
   background-image: url("./img/fondo1.jpg");
-  background-position: center;
   background-size: cover;
+  text-align: center;
+  align-items: center;
 }
 
 .middleinfo{
   padding:5%;
   margin:5%;
+  background-color: white;
 }
 
 #jsp{
   margin-top:7vh;
+  display: inline-flex;
 }
 
 #email{
   padding:2%;
-  width:150%;
   background-color: #cccccc;
   border:none;
+  width: 100%;
 }
 
 .bottoncontainer4{
@@ -210,6 +249,7 @@ line-height:90%;
   background-color:#404040;
   width:25em;
   height:6.3vh;
+  margin: auto;
 }
 
 #suscribe{

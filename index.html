@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ismail Khayam, Emma Léger">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>BikeShop</title>
   </head>
@@ -30,7 +31,8 @@
           </ul>
           <div>
             <img src="./img/basketico.png" alt="chariot">
-            <button type="button" name="basket" id="basket" class="text-light border-0">basket (0)</button>
+            <button type="button" name="basket" id="basket">BASKET (0)
+            </button>
           </div>
         </div>
       </nav>
@@ -38,43 +40,44 @@
 
       <p id="paragrafo1">Lorem ipsum dolor sit amet <br> consectetur adipisicing</p>
       <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-      <button id="play" class="text-center border-0" type="button" name="button"><img id="music" src="./img/playbtn.png" alt="play music"></button>
+      <button id="play" type="button" name="button">
+        <img id="music" src="./img/playbtn.png" alt="play music">
+      </button>
     </section>
-    <section class="d-inline-flex" id="sec2">
-      <div class="card border-0" id="sec2center">
-  <p id="sec2title">Lorem ipsum dolor sit amet, consectetur!</p>
-  <div class="card-body" id="sec2p">
-    <p class="card-text paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br></p>
-    <p class="paragraphe">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br></p>
-    <p class="paragraphe">sed ut perspicaciatis unde omnis iste natus error sit</p>
-    <div class="bottoncontainer margin-auto">
+    <section id="sec2">
+      <div class="card" id="sec2center">
+  <h1 id="sec2title">Lorem ipsum dolor sit amet consectetur!</h1>
+  <div id="sec2p">
+    <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p class="paragraphe">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="paragraphe">Sed ut perspicaciatis unde omnis iste natus error sit</p>
+    <div class="bottoncontainer">
       <button class="classicbutton" type="button" name="button">READ MORE</button>
     </div>
   </div>
       </div>
       <img src="./img/bikered.jpg" alt="vélo" id="img2">
     </section>
-    <section class="d-inline-flex margin-auto" id="sec3">
+    <section id="sec3">
       <img src="./img/bicigiall.jpg" alt="vélo">
       <div class="paragrafo">
-        <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+        <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
       </div>
     </section>
-    <section class="text-center" id="sec4">
+    <section id="sec4">
       <header class="header">
         <h1 class="h1">Lorem ipsum dolor sit amet, consectetur!</h1>
         <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
       </header>
-      <section class="inner section 4" width="100vw">
-        <div class="d-inline-flex align-items-center">
-          <div class="bottoncontainer2 align-middle">
+      <section id="sec4b">
+          <div class="bottoncontainer2">
             <button id="zoom" type="button" name="button">
               <img class="imgbutton" src="./img/freccia.png" alt="flèche">
               <img class="imgbutton" src="./img/piu.png" alt="zoom">
               <img src="./img/meno.png" alt="dézoom">
             </button>
           </div>
-          <div class="fotobici text-center">
+          <div class="fotobici">
             <img src="./img/capture.png" alt="vélo">
           </div>
           <div class="comboimg">
@@ -82,26 +85,25 @@
             <img class="each" src="./img/parte2.png" alt="roue">
             <img class="each" src="./img/parte3.png" alt="chaîne">
           </div>
-        </div>
       </section>
     </section>
-    <section class="text-center" id="sec5">
+    <section id="sec5">
       <header class="header">
         <h1 class="h1">Lorem ipsum dolor sit amet, consectetur!</h1>
         <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
       </header>
       <div class="card-deck">
-        <div class="card" style="border:0">
+        <div class="card">
           <img src="./img/tubo.png" class="card-img-top" alt="tube" width="250" height="300">
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit</h5>
+            <h5>Lorem ipsum dolor sit</h5>
             <p>$135</p>
             <div class="bottoncontainer3">
               <button class="classicbutton" type="button" name="button">BUY NOW</button>
             </div>
           </div>
         </div>
-        <div class="card" style="border:0;">
+        <div class="card">
           <img src="./img/freno.png" class="card-img-top" alt="freins" width="230" height="300">
           <div class="card-body">
             <h5 class="card-title">Lorem ipsum dolor sit</h5>
@@ -111,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="border: 0;">
+        <div class="card">
           <img src="./img/sella.png" class="card-img-top" alt="selle" width="230" height="300">
           <div class="card-body">
             <h5 class="card-title">Lorem ipsum dolor sit</h5>
@@ -121,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="border:0;">
+        <div class="card">
           <img src="./img/partebici.png" class="card-img-top" alt="pièce" width="230" height="300">
           <div class="card-body">
             <h5 class="card-title">Lorem ipsum dolor sit</h5>
@@ -133,14 +135,14 @@
         </div>
       </div>
     </section>
-    <section class="text-center d-table-cell align-middle" id="sec6">
-      <div class="middleinfo bg-light">
-        <h1 class="h1">Lorem ipsum dolor sit amet, consectetur!</h1>
-        <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-        <div class="search" id="formfoot">
-          <form class="d-inline-flex" id="jsp" action="/action_page.php">
+    <section id="sec6">
+      <div class="middleinfo">
+        <h1 class="h1">Suscribe our newsletter</h1>
+        <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div id="formfoot">
+          <form id="jsp" action="/action_page.php">
         <input type="text" id="email" placeholder="your email address..." name="search">
-        <div class="bottoncontainer4 margin-auto">
+        <div class="bottoncontainer4">
           <button id="suscribe" type="button" name="button">SUSCRIBE</button>
         </div>
           </form>
@@ -155,7 +157,7 @@
         </div> -->
       </div>
       <nav id="lastnav" class="navbar navbar-expand-lg navbar-light border-top">
-        <a class="navbar-brand text-light" href="#">copyright @2016. all rights reserved</a>
+        <a class="navbar-brand text-light" href="#">Copyright © 2016. All rights reserved</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -163,7 +165,7 @@
           <ul class="navbar-nav mr-auto">
           </ul>
           <span class="navbar-text text-light">
-            designed by symu.co
+            Designed by Symu.co
           </span>
         </div>
       </nav>
