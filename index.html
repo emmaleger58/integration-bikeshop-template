@@ -1,165 +1,157 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ismail Khayam, Emma Léger">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>BikeShop</title>
-  </head>
-  <body>
-    <section id="sec1">
-      <!-- début de la section à conserver -->
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand text-light" href="#" id="brand">Bikeshop</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-uppercase" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">bikes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">components</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">accessories</a>
-            </li>
-          </ul>
-          <div>
-            <img src="./img/basketico.png" alt="chariot">
-            <button type="button" name="basket" id="basket">BASKET (0)
-            </button>
-          </div>
-        </div>
-      </nav>
-        <!-- fin de la section à conserver -->
 
-      <p id="paragrafo1">Lorem ipsum dolor sit amet <br> consectetur adipisicing</p>
-      <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-      <button id="play" type="button" name="button">
-        <img id="music" src="./img/playbtn.png" alt="play music">
-      </button>
-    </section>
-    <section id="sec2">
-      <div class="card" id="sec2center">
-  <h1 id="sec2title">Lorem ipsum dolor sit amet consectetur!</h1>
-  <div>
-    <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p class="paragraphe">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p class="paragraphe">Sed ut perspicaciatis unde omnis iste natus error sit</p>
-    <div class="bottoncontainer">
-      <button class="classicbutton" type="button" name="button">READ MORE</button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ismail Khayam, Emma Léger">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <script src="https://kit.fontawesome.com/c5e23e4bde.js" crossorigin="anonymous"></script>
+  <title>BikeShop</title>
+</head>
+
+<body>
+  <section id="sec1">
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" id="brand">Bikeshop</a>
+      <a href="#news">BIKES</a>
+      <a href="#news">COMPONENTS</a>
+      <a href="#contact">ACCESSORIES</a>
+      <div class="end">
+        <a href="#about">
+          <img src="./img/basketico.png" alt="chariot">
+          <button type="button" name="basket" id="basket">BASKET (0)
+          </button>
+        </a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i>
+      </a>
     </div>
-  </div>
-      </div>
-      <img src="./img/bikered.jpg" alt="vélo" id="img2">
-    </section>
-    <section id="sec3">
-      <img src="./img/bicigiall.jpg" alt="vélo" id="bicycle">
-      <div class="paragrafo">
-        <p class="paragraphe" id="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-      </div>
-    </section>
-    <section id="sec4">
-      <header class="header">
-        <h1 id="sec2title">Lorem ipsum dolor sit amet, consectetur!</h1>
-        <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </header>
-      <section id="sec4b">
-          <div class="bottoncontainer2">
-            <button id="zoom" type="button" name="button">
-              <img class="imgbutton" src="./img/freccia.png" alt="flèche">
-              <img class="imgbutton" src="./img/piu.png" alt="zoom">
-              <img class="imgbutton2" src="./img/meno.png" alt="dézoom">
-            </button>
-          </div>
-          <div class="fotobici">
-            <img id="imgsize" src="./img/capture.png" alt="vélo">
-          </div>
-          <div class="comboimg">
-            <img class="each" src="./img/parte1.png" alt="guidon">
-            <img class="each" src="./img/parte2.png" alt="roue">
-            <img class="each" src="./img/parte3.png" alt="chaîne">
-          </div>
-      </section>
-    </section>
-    <section id="sec5">
-      <header class="header">
-        <h1 id="sec2title">Lorem ipsum dolor sit amet consectetur!</h1>
-        <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </header>
-      <div class="card-deck">
-        <div class="card border-0">
-          <img src="./img/tubo.png" class="card-img-top" alt="tube" width="250" height="300">
-          <div class="card-body">
-            <h5>Lorem ipsum dolor sit</h5>
-            <p>$135</p>
-            <div class="bottoncontainer3">
-              <button class="classicbutton" type="button" name="button">BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <img src="./img/freno.png" class="card-img-top" alt="freins" width="230" height="300">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit</h5>
-            <p>$135</p>
-            <div class="bottoncontainer3">
-              <button class="classicbutton" type="button" name="button">BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <img src="./img/sella.png" class="card-img-top" alt="selle" width="230" height="300">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit</h5>
-            <p>$135</p>
-            <div class="bottoncontainer3">
-              <button class="classicbutton" type="button" name="button">BUY NOW</button>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <img src="./img/partebici.png" class="card-img-top" alt="pièce" width="230" height="300">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit</h5>
-            <p>$135</p>
-            <div class="bottoncontainer3">
-              <button class="classicbutton" type="button" name="button">BUY NOW</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="sec6">
-      <div class="middleinfo">
-        <h1 class="h1">Suscribe our newsletter</h1>
-        <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-        <div id="formfoot">
-          <form id="jsp" action="/action_page.php">
-        <input type="text" id="email" placeholder="your email address..." name="search">
-        <div class="bottoncontainer4">
-          <button id="suscribe" type="button" name="button">SUSCRIBE</button>
-        </div>
-          </form>
-        </div>
 
+    <p id="paragrafo1">Lorem ipsum dolor sit amet <br> consectetur adipisicing</p>
+    <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+    <button id="play" type="button" name="button">
+      <img id="music" src="./img/playbtn.png" alt="play music">
+    </button>
+  </section>
+  <section id="sec2">
+    <div class="card" id="sec2center">
+      <h1 id="sec2title">Lorem ipsum dolor sit amet consectetur!</h1>
+      <div>
+        <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+        <p class="paragraphe">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="paragraphe">Sed ut perspicaciatis unde omnis iste natus error sit</p>
+        <div class="bottoncontainer">
+          <button class="classicbutton" type="button" name="button">READ MORE</button>
+        </div>
       </div>
-      <nav id="lastnav" class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand text-light" id="copy" href="#">Copyright © 2016. All rights reserved</a>
-          <ul class="navbar-nav mr-auto">
-          </ul>
-          <span class="navbar-text text-light">
-            Designed by Symu.co
-          </span>
-      </nav>
+    </div>
+    <img src="./img/bikered.jpg" alt="vélo" id="img2">
+  </section>
+  <section id="sec3">
+    <img src="./img/bicigiall.jpg" alt="vélo" id="bicycle">
+    <div class="paragrafo">
+      <p class="paragraphe" id="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor.</p>
+    </div>
+  </section>
+  <section id="sec4">
+    <header class="header">
+      <h1 id="sec2title">Lorem ipsum dolor sit amet, consectetur!</h1>
+      <p class="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat</p>
+    </header>
+    <section id="sec4b">
+      <div class="bottoncontainer2">
+        <button id="zoom" type="button" name="button">
+          <img class="imgbutton" src="./img/freccia.png" alt="flèche">
+          <img class="imgbutton" src="./img/piu.png" alt="zoom">
+          <img class="imgbutton2" src="./img/meno.png" alt="dézoom">
+        </button>
+      </div>
+      <div class="fotobici">
+        <img id="imgsize" src="./img/capture.png" alt="vélo">
+      </div>
+      <div class="comboimg">
+        <img class="each" src="./img/parte1.png" alt="guidon">
+        <img class="each" src="./img/parte2.png" alt="roue">
+        <img class="each" src="./img/parte3.png" alt="chaîne">
+      </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+  </section>
+  <section id="sec5">
+    <header class="header">
+      <h1 id="sec2title">Lorem ipsum dolor sit amet consectetur!</h1>
+      <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.</p>
+    </header>
+    <div class="card-deck">
+      <div class="card border-0">
+        <img src="./img/tubo.png" class="card-img-top" alt="tube" width="250" height="300">
+        <div class="card-body">
+          <h5>Lorem ipsum dolor sit</h5>
+          <p>$135</p>
+          <div class="bottoncontainer3">
+            <button class="classicbutton" type="button" name="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0">
+        <img src="./img/freno.png" class="card-img-top" alt="freins" width="230" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lorem ipsum dolor sit</h5>
+          <p>$135</p>
+          <div class="bottoncontainer3">
+            <button class="classicbutton" type="button" name="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0">
+        <img src="./img/sella.png" class="card-img-top" alt="selle" width="230" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lorem ipsum dolor sit</h5>
+          <p>$135</p>
+          <div class="bottoncontainer3">
+            <button class="classicbutton" type="button" name="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0">
+        <img src="./img/partebici.png" class="card-img-top" alt="pièce" width="230" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lorem ipsum dolor sit</h5>
+          <p>$135</p>
+          <div class="bottoncontainer3">
+            <button class="classicbutton" type="button" name="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sec6">
+    <div class="middleinfo">
+      <h1 class="h1">Suscribe our newsletter</h1>
+      <p class="paragraphebis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <div id="formfoot">
+        <form id="jsp" action="/action_page.php">
+          <input type="text" id="email" placeholder="your email address..." name="search">
+          <div class="bottoncontainer4">
+            <button id="suscribe" type="button" name="button">SUSCRIBE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-flex">
+        <div class="un">Copyright © 2016. All rights reserved</div>
+        <div class="deux">Designed by Symu.co</div>
+    </div>
+
+  </section>
+  <script type="text/javascript" src="topnav.js"></script>
+</body>
+
 </html>
