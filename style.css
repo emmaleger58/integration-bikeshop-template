@@ -295,7 +295,7 @@
     font-size: 2vh;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #sec2{
     flex-direction: column;
     padding: 0;
@@ -386,42 +386,64 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-/* @media only screen and (min-width: 1300px){
-  #secondsub{
-    display: none;
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  #sec2{
+    padding: 0;
+  }
+  #sec2center {
+    margin: auto;
+    width: 100%;
+    padding: 5%;
+  }
+  #sec2title{
+    text-align: center;
+  }
+  .bottoncontainer{
+    margin: auto;
+  }
+  #img2{
+    width:50%;
+    margin: auto;
+  }
+  #bicycle{
+    width: 50%;
+    margin: auto;
+  }
+  #zoom{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .imgbutton{
+    margin-top: 1vh;
+    width: 70%;
+    margin-left: 0.5vh;
+  }
+  .imgbutton2{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    width: 70%;
+    margin-left: 0.5vh
+  }
+  #imgsize{
+    width: 100%;
+    margin: auto;
+  }
+  .comboimg{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+  }
+  #sec5{
+    padding: 0;
+  }
+  .card-deck{
+    width: 100%;
+  }
+  .card{
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }
-@media only screen and (max-width: 1200px){
-  #sec2 *{
-    display: none;
-  }
-  #sec3 *{
-    display: none;
-  }
-  #carddeck{
-    display: grid;
-  }
-  #carddeck img{
-    width: 30%;
-    height: auto;
-    margin: auto
-  }
-  #sec4{
-    display: none;
-  }
-  #formfoot{
-    display: none;
-  }
-  #secondsub{
-    display: inline;
-  }
-} */
