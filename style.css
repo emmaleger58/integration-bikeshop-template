@@ -63,17 +63,33 @@
 
 #play {
   border-radius: 100%;
-  height: 7vh;
   width: 7vh;
-  outline: none;
-  text-align: center;
   border: 0;
+  outline: none;
 }
 
 #music {
   height: 3vh;
   width: 3vh;
+  margin-left: -1vh;
 }
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #999999;
+  color: white;
+}
+
 
 #sec2 {
   height: 100%;
@@ -121,6 +137,7 @@
   border: 1px solid #f2f2f2;
   outline: none;
   width: 100%;
+  padding: 1vh;
 }
 
 #img2 {
@@ -174,7 +191,7 @@
   color: #f2f2f2;
   border: 1px solid #f2f2f2;
   outline: none;
-  padding: 5px;
+  padding: 1vh;
 }
 
 .imgbutton {
@@ -266,7 +283,7 @@
   margin: auto;
 }
 
-#suscribe {
+.suscribe {
   background-color: #404040;
   color: #f2f2f2;
   border: 1px solid#f2f2f2;
@@ -295,10 +312,6 @@
   justify-content: space-between;
 }
 
-/* .un, .deux{
-    flex-basis:150%;
-} */
-
 @media only screen and (max-width: 768px) {
   #sec2 {
     flex-direction: column;
@@ -307,8 +320,7 @@
 
   #sec2center {
     margin: auto;
-    width: 100%;
-    padding: 5%;
+    width: 90%;
   }
 
   #sec2title {
@@ -485,10 +497,12 @@
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 1200px) {
-.card-deck {
-  flex-wrap: wrap;
-  justify-content: center;
+  .card-deck {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* topnav */
@@ -501,9 +515,9 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 2vh;
 }
 
 .topnav a:hover {
@@ -512,7 +526,6 @@
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
   color: white;
 }
 
@@ -520,9 +533,8 @@
   display: none;
 }
 
-.end {
-  display: flex;
-  justify-content: flex-end;
+.topnav-right {
+  float: right;
 }
 
 @media screen and (max-width: 600px) {
