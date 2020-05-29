@@ -537,6 +537,10 @@
 }
 
 @media screen and (max-width: 1035px) {
+  #brand{
+    margin-right: 53%;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -545,9 +549,7 @@
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 1035px) {
   .topnav.responsive {
     position: relative;
   }
@@ -561,6 +563,6 @@
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
