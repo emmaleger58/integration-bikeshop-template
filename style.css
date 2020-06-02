@@ -102,7 +102,7 @@
   margin: auto;
 }
 
-#sec2title {
+.sec2title {
   font-size: 7vh;
   font-family: modern;
   line-height: 90%;
@@ -322,7 +322,7 @@
     width: 90%;
   }
 
-  #sec2title {
+  .sec2title {
     text-align: center;
   }
 
@@ -433,7 +433,7 @@
     padding: 5%;
   }
 
-  #sec2title {
+  .sec2title {
     text-align: center;
   }
 
